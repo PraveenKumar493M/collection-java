@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+public class ListDemo {
+
+    public static void main(String[] args) {
+
+        // List - ArrayList
+
+        List<String> temp= new ArrayList<>();
+        temp.add("Apple");
+        temp.add("Asus");
+
+        List<String> brandArrayList= new ArrayList<>()   ;
+        brandArrayList.add("VIVO");
+        brandArrayList.add("Oppo");
+        brandArrayList.addAll(temp);
+        System.out.println("1 "+brandArrayList);
+        
+        brandArrayList.add(1,"MI");
+        System.out.println("2 "+brandArrayList);
+        
+        // System.out.println( brandArrayList.contains("3 "+"Google"));
+        
+        int last= brandArrayList.indexOf("Apple");
+        System.out.println("4 "+last);
+        
+         brandArrayList.removeAll(temp);
+       System.out.println(brandArrayList);
+   
+   brandArrayList.removeAll(brandArrayList);
+       System.out.println(brandArrayList);
+         
+    }
+}
