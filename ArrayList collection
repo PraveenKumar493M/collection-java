@@ -17,9 +17,11 @@ public class ListDemo {
         brandArrayList.add("VIVO");
         brandArrayList.add("Oppo");
         brandArrayList.addAll(temp);
+        
         System.out.println("1 "+brandArrayList);
         
         brandArrayList.add(1,"MI");
+        
         System.out.println("2 "+brandArrayList);
         
         // System.out.println( brandArrayList.contains("3 "+"Google"));
