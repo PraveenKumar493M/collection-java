@@ -25,9 +25,7 @@ public class MapDemo {
         stringAap.put(1, "Linkedin");
         stringAap.put(2, "Naukri");
       
-        
          stringAap.forEach((key , value) -> System.out.println(key+":"+ value));
-        
     }
 
 }
