@@ -5,7 +5,6 @@ public class ListDemo {
     public static void main(String[] args)
     {
         // List - ArrayList
-
         List<String> temp= new ArrayList<>();
         temp.add("Apple");
         temp.add("Asus");
