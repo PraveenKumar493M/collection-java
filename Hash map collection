@@ -12,7 +12,6 @@ public class MapDemo {
         for (Integer key : keys) {
             stringMap.get(key);
         }
-
         //  var entries = stringMap.entrySet();
         // for (Map.Entry<Integer, String> entry : entries)
         //     System.out.println(entry.getKey() + "" + entry.getValue());
