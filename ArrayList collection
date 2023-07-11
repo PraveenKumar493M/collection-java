@@ -29,7 +29,6 @@ public class ListDemo {
        System.out.println(brandArrayList);
    
    brandArrayList.removeAll(brandArrayList);
-       System.out.println(brandArrayList);
-         
+       System.out.println(brandArrayList);        
     }
 }
