@@ -16,12 +16,10 @@ public class MapDemo {
         // for (Map.Entry<Integer, String> entry : entries)
         //     System.out.println(entry.getKey() + "" + entry.getValue());
 
-         stringMap.forEach((key , value) -> System.out.println(key+":"+ value));
-        
+         stringMap.forEach((key , value) -> System.out.println(key+":"+ value)); 
          Map<Integer, String> stringAap = new HashMap<>();
         stringAap.put(1, "Linkedin");
-        stringAap.put(2, "Naukri");
-      
+        stringAap.put(2, "Naukri");  
          stringAap.forEach((key , value) -> System.out.println(key+":"+ value));
     }
 
