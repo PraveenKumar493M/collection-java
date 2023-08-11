@@ -12,8 +12,7 @@ public class ListDemo {
         List<String> brandArrayList= new ArrayList<>()   ;
         brandArrayList.add("VIVO");
         brandArrayList.add("Oppo");
-        brandArrayList.addAll(temp);
-        
+        brandArrayList.addAll(temp);      
         System.out.println("1 "+brandArrayList);
         
         brandArrayList.add(1,"MI");
