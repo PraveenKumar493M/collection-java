@@ -16,7 +16,6 @@ public class MapDemo {
         //  var entries = stringMap.entrySet();
         // for (Map.Entry<Integer, String> entry : entries)
         //     System.out.println(entry.getKey() + "" + entry.getValue());
-
          stringMap.forEach((key , value) -> System.out.println(key+":"+ value)); 
          Map<Integer, String> stringAap = new HashMap<>();
         stringAap.put(1, "Linkedin");
