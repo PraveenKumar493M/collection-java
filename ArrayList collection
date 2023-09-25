@@ -9,7 +9,6 @@ public class ListDemo {
         temp.add("Apple");
         temp.add("Asus");
 
-
         List<String> brandArrayList= new ArrayList<>()   ;
         brandArrayList.add("VIVO");
         brandArrayList.add("Oppo");
