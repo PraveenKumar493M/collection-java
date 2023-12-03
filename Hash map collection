@@ -5,6 +5,7 @@ public class MapDemo {
 
     public static void main(String[] args) 
     {
+
        Map<Integer, String> stringMap = new HashMap<>();
         stringMap.put(1, "Chennai");
         stringMap.put(2, "Bangalore");
