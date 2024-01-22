@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-public class MapDemo {
+public class MapDemo
+ {
     public static void main(String[] args) 
     {
        Map<Integer, String> stringMap = new HashMap<>();
@@ -19,5 +20,5 @@ public class MapDemo {
         stringAap.put(1, "Linkedin");
         stringAap.put(2, "Naukri");  
          stringAap.forEach((key , value) -> System.out.println(key+":"+ value));
-}
+    }
 }
